@@ -1,0 +1,51 @@
+.banner{
+    position: relative;
+    margin-left: 100px;
+}
+.banner-content{
+    width: 500px;
+    position: absolute;
+    bottom: 0;
+    right: 300px;
+    margin-bottom: 250px;
+    padding-right: 100px;
+    text-align: right;
+    color: white;
+    
+
+}
+.banner-title{
+    font-size: 50px;
+}
+.banner-discription{
+    font-size: 15px;
+    color: lightblue;
+}
+.btn-primary{
+    padding: 10px;
+    font-size: 15px;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: rgb(148, 122, 122);
+}
+
+/* failures section styles */
+
+.failures{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 10px 200px;
+}
+ul li{
+
+    list-style: none;
+    
+}
+li i{
+    margin-right: 20px;
+    color: rgb(144, 166, 123);
+}
