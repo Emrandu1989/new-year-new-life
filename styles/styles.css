@@ -49,3 +49,85 @@ li i{
     margin-right: 20px;
     color: rgb(144, 166, 123);
 }
+
+/* future plans section styles */
+.future{
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+
+}
+.future-plans{
+    display: flex;
+    justify-content: space-evenly;
+}
+.plans{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.plan{
+    /* border: 1px solid green; */
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+}
+.plan img{
+    width: 50px;
+    padding-top: 0;
+}
+.plan-title{
+    margin-top: 0;
+}
+.plan p{
+    margin-top: -12px;
+}
+.bg-section{
+    background-image: url("../images/watch.png");
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 100px;
+    margin-top: 50px;
+}
+.bg-title{
+    font-size: 30px;
+    margin-top: 0;
+    color: aqua;
+}
+.bg-section button{
+    margin-top: 0;
+    padding: 12px 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    background-color: black;
+    color: rgb(238, 197, 197);
+    padding: 200px;
+    margin-bottom: 50px;
+    margin-top: -150px;
+    
+    
+}
+.future{
+    width: 50%;
+}
+.social img{
+    margin-right: 20px;
+}
+.subscribe{
+    width: 50%;
+    margin-left: 200px;
+}
+.subscribe input{
+    padding: 20px 60px;
+}
+.subscribe button{
+    padding: 10px 20px;
+    margin-top: 20px;
+}
